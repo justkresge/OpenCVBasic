@@ -1,0 +1,4 @@
+OpenCVBasic
+===========
+
+Basic CV App
