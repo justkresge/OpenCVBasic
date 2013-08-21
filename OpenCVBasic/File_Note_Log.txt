@@ -11,4 +11,25 @@ Synced, Moved Readme inside folder
 Readme doesn't work - moved back
 Created File Note Log (this File)
 Commit & Sync 
+--------------------------------------------------
+Manifest File
+Select changes from image-manipulations sample manifest file
+
+(Manifest Tab): Added Manifest Extras: 
+	Supports Screens: with same settings And moved to top to copy order
+	android.hardware.camera
+	android.hardware.camera.autofocus
+	android.hardware.camera.front
+	android.hardware.camera.front.autofocus
+	
+(Permissions Tab): Added User Permission android.permission.CAMERA
+
+(code): Updated targetSDK to latest version "18"
+added: 			android:screenOrientation="landscape"
+				android:configChanges="keyboardHidden|orientation"
+Replace:  android:theme="@style/AppTheme"
+With: android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+				
+CRTL + SHIRFT + "F"  : To clean-up formating of code
+-----------------------------------------------
 
