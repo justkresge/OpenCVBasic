@@ -1,3 +1,14 @@
 Created New Android Application
 Selected team/share project...
 First Commit
+GitHub Desktop options/find repositories / add
+team/disconnect
+project clean, then build
+Deployed to phone
+Synced to GitHub
+Created Readme on GitHub, Committed
+Synced, Moved Readme inside folder
+Readme doesn't work - moved back
+Created File Note Log (this File)
+Commit & Sync 
+
