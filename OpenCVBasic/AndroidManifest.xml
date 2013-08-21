@@ -4,7 +4,25 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <supports-screens
+   
+    <application
+	  android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.hooper.opencvbasic.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    
+     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
         android:normalScreens="true"
@@ -13,7 +31,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="18" />
+       />
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -29,23 +47,6 @@
     <uses-feature
         android:name="android.hardware.camera.front.autofocus"
         android:required="false" />
-
-    <application
-        android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-        <activity
-            android:name="com.hooper.opencvbasic.MainActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:label="@string/app_name"
-            android:screenOrientation="landscape" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+    
 
 </manifest>

@@ -16,7 +16,6 @@ import org.opencv.core.Size;
 import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
 import org.opencv.imgproc.Imgproc;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
@@ -103,7 +102,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
         setContentView(R.layout.activity_main);
 
-        mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.image_manipulations_activity_surface_view);
+        mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.activity_main);
         mOpenCvCameraView.setCvCameraViewListener(this);
     }
 
