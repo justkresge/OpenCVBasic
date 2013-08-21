@@ -1,0 +1,3 @@
+Created New Android Application
+Selected team/share project...
+First Commit
